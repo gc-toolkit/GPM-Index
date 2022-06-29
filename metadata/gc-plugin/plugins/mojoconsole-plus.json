@@ -1,0 +1,146 @@
+{
+    "tags": ["Command", "Helper", "Cheat"],
+    "github": "gc-mojoconsole/gc-mojoconsole-backend",
+    "releases": "releases/latest",
+    "config_path": "./mojoconfig.json",
+    "config_schema": {
+        "definitions": {},
+        "$schema": "http://json-schema.org/draft-07/schema#", 
+        "$id": "https://example.com/object1653273507.json", 
+        "title": "Root", 
+        "type": "object",
+        "properties": {
+            "UseCDN": {
+                "$id": "UseCDN", 
+                "title": "Use CDN for frontend servering", 
+                "type": "boolean"
+            },
+            "CDNLink": {
+                "$id": "CDNLink", 
+                "title": "Link to the CDN frontend(Valid if you use CDN)", 
+                "type": "string"
+            },
+            "interfacePath": {
+                "$id": "interfacePath", 
+                "title": "Static file path for the webpage(Valid if you serve locally)", 
+                "type": "string"
+            },
+            "responseMessage": {
+                "$id": "responseMessage", 
+                "title": "Response message after successfully retrieve link for mojoconsle", 
+                "type": "string"
+            },
+            "responseMessageThird": {
+                "$id": "responseMessageThird", 
+                "title": "Response message after try to retrieve link for third-party", 
+                "type": "string"
+            },
+            "responseMessageError": {
+                "$id": "responseMessageError", 
+                "title": "Response message when encounter error", 
+                "type": "string"
+            },
+            "responseMessageSuccess": {
+                "$id": "responseMessageSuccess", 
+                "title": "Response message when successfully retrieve link for third-party", 
+                "type": "string"
+            },
+            "mail": {
+                "$id": "mail", 
+                "title": "Mail configuration", 
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "$id": "mail/title", 
+                        "title": "Title of the mail", 
+                        "type": "string"
+                    },
+                    "author": {
+                        "$id": "mail/author", 
+                        "title": "Author of the mail", 
+                        "type": "string"
+                    },
+                    "content": {
+                        "$id": "mail/content", 
+                        "title": "Content of the mail(`{{ LINK }}` is required)", 
+                        "type": "string"
+                    },
+                    "expireHour": {
+                        "$id": "mail/expireHour", 
+                        "title": "Mail & Auth token expire time in hour", 
+                        "type": "integer"
+                    }
+                }
+            }
+        }
+    },
+    "diagnose": [
+        {
+            "op": "eq",
+            "params": [
+                {"op": "get_gc", "params": ["server.http.policies.cors.enabled"]},
+                {"op": "get_plugin", "params": ["UseCDN"]}
+            ],
+            "description": "CORS should be enabled when using CDN for frontend servering"
+        },
+        {
+            "op": "then",
+            "params": [
+                {
+                    "op": "eq",
+                    "params": [
+                        {"op": "get_plugin", "params": ["UseCDN"]},
+                        {"op": "value", "params": [true]}
+                    ]
+                },
+                {
+                    "op": "or",
+                    "params": [
+                        {
+                            "op": "contains",
+                            "params": [
+                                {"op": "get_gc", "params": ["server.http.policies.cors.allowedOrigins"]},
+                                {"op": "value", "params": ["*"]}
+                            ]
+                        },
+                        {
+                            "op": "contains",
+                            "params": [
+                                {"op": "get_gc", "params": ["server.http.policies.cors.allowedOrigins"]},
+                                {"op": "match", 
+                                    "params": [
+                                        {"op": "get_plugin", "params": ["CDNLink"]},
+                                        {"op": "value", "params": [".*://(.*)/"]},
+                                        {"op": "value", "params": [1]}
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "description": "CORS allowed origins may be not configured correctly."
+        },
+        {
+            "op": "or",
+            "params": [
+                {"op": "contains", "params": [
+                    {"op": "get_gc", "params": ["account.defaultPermissions"]},
+                    {"op": "value", "params": ["*"]}
+                ]},
+                {"op": "contains", "params": [
+                    {"op": "get_gc", "params": ["account.defaultPermissions"]},
+                    {"op": "value", "params": ["mojo.console"]}
+                ]},
+                {"op": "contains", "params": [
+                    {"op": "get_gc", "params": ["account.defaultPermissions"]},
+                    {"op": "value", "params": ["mojo.*"]}
+                ]}
+            ],
+            "description": {
+                "type": "warning",
+                "message": "Mojo console not permitted to be used by default, check your configuration."
+            }
+        }
+    ]
+}

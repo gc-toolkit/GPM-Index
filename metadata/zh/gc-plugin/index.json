@@ -1,0 +1,52 @@
+[
+    {
+        "name": "mojoconsole-plus",
+        "tags": ["Cheat", "Command", "Helper"],
+        "releases": "releases/latest",
+        "github": "gc-mojoconsole/gc-mojoconsole-backend",
+        "description": "This plugin provide interface for external tools to execute console commands."
+    },
+    {
+        "name": "opencommand-plugin",
+        "tags": ["Cheat", "Command", "Helper"],
+        "releases": "releases/latest",
+        "github": "jie65535/gc-opencommand-plugin",
+        "description": "blablabla"
+    },
+    {
+        "name": "GCAuth",
+        "tags": ["Auth"],
+        "releases": "releases/latest",
+        "github": "exzork/GCAuth",
+        "description": "Authenticator for grasscutter."
+    },
+    {
+        "name": "GCAuth-OAuth",
+        "tags": ["Auth"],
+        "releases": "releases/latest",
+        "github": "Xtao-Team/GCAuth-OAuth",
+        "description": "The in-game login system for Grasscutter is based on oauth and GCAuth."
+    },
+    {
+        "name": "MeaNotice",
+        "tags": ["Announcement"],
+        "releases": "releases/latest",
+        "github": "Coooookies/Grasscutter-MeaNotice",
+        "description": "A plugin of Grasscutter for send regular notice."
+    },
+    {
+        "name": "MeaMailPlus",
+        "tags": ["Mail"],
+        "releases": "releases/latest",
+        "github": "Coooookies/Grasscutter-MeaMailPlus",
+        "description": "A plugin of Grasscutter for send in-game mail conveniently",
+        "icon": "https://raw.githubusercontent.com/gc-mojoconsole/landscaper-depot/main/images/MeaMailPlus.png"
+    },
+    {
+        "name": "IdLookPlugin",
+        "tags": ["Handbook", "Helper"],
+        "releases": "releases/latest",
+        "github": "ffauzan/id-look",
+        "description": "A plugin of Grasscutter for lookup item IDs from the handbook"
+    }
+]

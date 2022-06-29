@@ -4,14 +4,21 @@
         "tags": ["Cheat", "Command", "Helper"],
         "releases": "releases/latest",
         "github": "gc-mojoconsole/gc-mojoconsole-backend",
-        "description": "This plugin provide interface for external tools to execute console commands."
+        "description": "A web interface for executing command both in game and through browser."
+    },
+    {
+        "name": "GrasscuttersWebDashboard",
+        "tags": ["Cheat", "Command", "Helper"],
+        "releases": "releases/latest",
+        "github": "liujiaqi7998/GrasscuttersWebDashboard",
+        "description": "Another web interface for executing command both in game and through browser"
     },
     {
         "name": "opencommand-plugin",
         "tags": ["Cheat", "Command", "Helper"],
         "releases": "releases/latest",
         "github": "jie65535/gc-opencommand-plugin",
-        "description": "blablabla"
+        "description": "A plugin that opens the GC command execution interface for third-party clients, only used by GrasscutterCommandGenerator at the moment, and allows it to execute command remotely."
     },
     {
         "name": "GCAuth",
@@ -25,7 +32,7 @@
         "tags": ["Auth"],
         "releases": "releases/latest",
         "github": "Xtao-Team/GCAuth-OAuth",
-        "description": "The in-game login system for Grasscutter is based on oauth and GCAuth."
+        "description": "In-game login system for Grasscutter, based on oauth and GCAuth."
     },
     {
         "name": "MeaNotice",
@@ -48,5 +55,19 @@
         "releases": "releases/latest",
         "github": "ffauzan/id-look",
         "description": "A plugin of Grasscutter for lookup item IDs from the handbook"
+    },
+    {
+        "name": "GCEnkaCopy",
+        "tags": ["Helper"],
+        "releases": "releases/latest",
+        "github": "exzork/GCEnkaCopy",
+        "description": "Copying characters, artifacts, weapon, and costume from official server and auto equpt them"
+    },
+    {
+        "name": "GCGM",
+        "tags": ["Helper", "Server"],
+        "releases": "releases/latest",
+        "github": "exzork/GCEnkaCopy",
+        "description": "A web interface to monitor performance usage of GC server[partially updated]"
     }
 ]

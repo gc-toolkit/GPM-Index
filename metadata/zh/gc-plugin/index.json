@@ -4,49 +4,69 @@
         "tags": ["Cheat", "Command", "Helper"],
         "releases": "releases/latest",
         "github": "gc-mojoconsole/gc-mojoconsole-backend",
-        "description": "This plugin provide interface for external tools to execute console commands."
+        "description": "WEB图形化指令生成器"
+    },
+    {
+        "name": "GrasscuttersWebDashboard",
+        "tags": ["Cheat", "Command", "Helper"],
+        "releases": "releases/latest",
+        "github": "liujiaqi7998/GrasscuttersWebDashboard",
+        "description": "一款WEB控制面板（网页工具箱/指令生成器）"
     },
     {
         "name": "opencommand-plugin",
         "tags": ["Cheat", "Command", "Helper"],
         "releases": "releases/latest",
         "github": "jie65535/gc-opencommand-plugin",
-        "description": "blablabla"
+        "description": "gc工具（GrasscutterCommandGenerator）远控的服务器端插件"
     },
     {
         "name": "GCAuth",
         "tags": ["Auth"],
         "releases": "releases/latest",
         "github": "exzork/GCAuth",
-        "description": "Authenticator for grasscutter."
+        "description": "割草机（grasscutter)的密码验证系统"
     },
     {
         "name": "GCAuth-OAuth",
         "tags": ["Auth"],
         "releases": "releases/latest",
         "github": "Xtao-Team/GCAuth-OAuth",
-        "description": "The in-game login system for Grasscutter is based on oauth and GCAuth."
+        "description": "建立在oauth和GCAuth的游戏内登录系统"
     },
     {
         "name": "MeaNotice",
-        "tags": ["Announcement"],
+        "tags": ["Announcement", "Server"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaNotice",
-        "description": "A plugin of Grasscutter for send regular notice."
+        "description": "发送定时公告"
     },
     {
         "name": "MeaMailPlus",
-        "tags": ["Mail"],
+        "tags": ["Mail", "Server"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaMailPlus",
-        "description": "A plugin of Grasscutter for send in-game mail conveniently",
-        "icon": "https://raw.githubusercontent.com/gc-mojoconsole/landscaper-depot/main/images/MeaMailPlus.png"
+        "description": "简单的发送游戏内邮件"
     },
     {
         "name": "IdLookPlugin",
         "tags": ["Handbook", "Helper"],
         "releases": "releases/latest",
         "github": "ffauzan/id-look",
-        "description": "A plugin of Grasscutter for lookup item IDs from the handbook"
+        "description": "在游戏内搜索GM手册"
+    },
+    {
+        "name": "GCEnkaCopy",
+        "tags": ["Helper"],
+        "releases": "releases/latest",
+        "github": "exzork/GCEnkaCopy",
+        "description": "一键获取和装备来自官服公开的数据"
+    },
+    {
+        "name": "GCGM",
+        "tags": ["Helper", "Server"],
+        "releases": "releases/latest",
+        "github": "exzork/GCEnkaCopy",
+        "description": "服务器性能查看面板【基本过期】"
     }
 ]

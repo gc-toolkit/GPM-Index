@@ -2,6 +2,6 @@
     "repo":"Grasscutters/Grasscutter",
     "workflow":{
         "latest":"https://nightly.link/Grasscutters/Grasscutter/workflows/build/development/Grasscutter.zip",
-        "all":"https://api.github.com/repos/Grasscutters/Grasscutter/actions/artifacts"
+        "all":"https://github.lyric.today/repos/Grasscutters/Grasscutter/actions/artifacts"
     }
 }

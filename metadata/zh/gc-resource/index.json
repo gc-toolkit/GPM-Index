@@ -2,7 +2,7 @@
     {
         "repo": "Koko-boya/Grasscutter_Resources",
         "archive": {
-            "url": "https://ghproxy.com/https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/main.zip",
+            "url": "https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/main.zip",
             "path": {
                 "target": "Grasscutter_Resources-main/Resources/"
             }

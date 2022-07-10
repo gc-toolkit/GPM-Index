@@ -1,70 +1,70 @@
 [
     {
         "name": "mojoconsole-plus",
-        "tags": ["Cheat", "Command", "Helper"],
+        "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "gc-mojoconsole/gc-mojoconsole-backend",
         "description": "WEB图形化指令生成器"
     },
     {
         "name": "GrasscuttersWebDashboard",
-        "tags": ["Cheat", "Command", "Helper"],
+        "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "liujiaqi7998/GrasscuttersWebDashboard",
         "description": "一款WEB控制面板（网页工具箱/指令生成器）"
     },
     {
         "name": "opencommand-plugin",
-        "tags": ["Cheat", "Command", "Helper"],
+        "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "jie65535/gc-opencommand-plugin",
         "description": "gc工具（GrasscutterCommandGenerator）远控的服务器端插件"
     },
     {
         "name": "GCAuth",
-        "tags": ["Auth"],
+        "tags": ["认证"],
         "releases": "releases/latest",
         "github": "exzork/GCAuth",
         "description": "割草机（grasscutter)的密码验证系统"
     },
     {
         "name": "GCAuth-OAuth",
-        "tags": ["Auth"],
+        "tags": ["认证"],
         "releases": "releases/latest",
         "github": "Xtao-Team/GCAuth-OAuth",
         "description": "建立在oauth和GCAuth的游戏内登录系统"
     },
     {
         "name": "MeaNotice",
-        "tags": ["Announcement", "Server"],
+        "tags": ["公告", "服务器"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaNotice",
         "description": "发送定时公告"
     },
     {
         "name": "MeaMailPlus",
-        "tags": ["Mail", "Server"],
+        "tags": ["邮件", "服务器"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaMailPlus",
         "description": "简单的发送游戏内邮件"
     },
     {
         "name": "IdLookPlugin",
-        "tags": ["Handbook", "Helper"],
+        "tags": ["手册", "助手"],
         "releases": "releases/latest",
         "github": "ffauzan/id-look",
         "description": "在游戏内搜索GM手册"
     },
     {
         "name": "GCEnkaCopy",
-        "tags": ["Helper"],
+        "tags": ["助手"],
         "releases": "releases/latest",
         "github": "exzork/GCEnkaCopy",
         "description": "一键获取和装备来自官服公开的数据"
     },
     {
         "name": "GCGM",
-        "tags": ["Helper", "Server"],
+        "tags": ["助手", "服务器"],
         "releases": "releases/latest",
         "github": "exzork/GCEnkaCopy",
         "description": "服务器性能查看面板【基本过期】"

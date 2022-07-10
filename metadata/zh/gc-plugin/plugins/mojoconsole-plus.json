@@ -1,5 +1,5 @@
 {
-    "tags": ["Command", "Helper", "Cheat"],
+    "tags": ["指令", "助手", "作弊"],
     "github": "gc-mojoconsole/gc-mojoconsole-backend",
     "releases": "releases/latest",
     "config_path": "./mojoconfig.json",

@@ -8,7 +8,7 @@
         "dependencies":[
             "core@*"
         ],
-        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/keystore@1.0.0.zip",
+        "file":"https://raw.githubusercontent.com/gc-toolkit/gc-pkgs.io/main/packages/keystore@1.0.0.zip",
         "uninstall":[
             "keystore.p12"
         ]
@@ -24,7 +24,7 @@
             "plugin@GCAuth",
             "plugin@GCAuth-OAuth"
         ],
-        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/GCAuth-OAuth-TwitterTheme@1.0.1.zip",
+        "file":"https://raw.githubusercontent.com/gc-toolkit/gc-pkgs.io/main/packages/GCAuth-OAuth-TwitterTheme@1.0.1.zip",
         "uninstall":[
             "plugins/GCAuth/OAuth"
         ]

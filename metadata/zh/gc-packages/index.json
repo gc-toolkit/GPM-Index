@@ -7,6 +7,9 @@
         "dependencies":[
             "core@*"
         ],
-        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/keystore@1.0.0.zip"
+        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/keystore@1.0.0.zip",
+        "uninstall":[
+            "./keystore.p12"
+        ]
     }
 ]

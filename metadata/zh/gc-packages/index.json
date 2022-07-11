@@ -12,5 +12,21 @@
         "uninstall":[
             "keystore.p12"
         ]
+    },
+    {
+        "name":"GCAuthOAuthTwitterTheme",
+        "version":"1.0.1",
+        "installationPath":"plugins/GCAuth/OAuth",
+        "author":"",
+        "description":"启用https功能所需的key文件",
+        "dependencies":[
+            "core@*",
+            "plugin@GCAuth",
+            "plugin@GCAuth-OAuth"
+        ],
+        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/GCAuth-OAuth-TwitterTheme@1.0.1.zip",
+        "uninstall":[
+            "plugins/GCAuth/OAuth"
+        ]
     }
 ]

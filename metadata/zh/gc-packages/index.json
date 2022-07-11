@@ -3,6 +3,7 @@
         "name":"keystore",
         "version":"1.0.0",
         "installationPath":"",
+        "author":"",
         "description":"启用https功能所需的key文件",
         "dependencies":[
             "core@*"

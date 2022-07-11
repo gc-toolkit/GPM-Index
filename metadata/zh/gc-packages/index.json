@@ -1,0 +1,12 @@
+[
+    {
+        "name":"keystore",
+        "version":"1.0.0",
+        "installationPath":"./",
+        "description":"启用https功能所需的key文件",
+        "dependencies":[
+            "core@*"
+        ],
+        "file":"https://gc-toolkit.github.io/gc-pkgs.io/packages/keystore@1.0.0.zip"
+    }
+]

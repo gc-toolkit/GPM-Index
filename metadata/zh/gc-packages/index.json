@@ -18,7 +18,7 @@
         "version":"1.0.1",
         "installationPath":"plugins/GCAuth/OAuth",
         "author":"",
-        "description":"启用https功能所需的key文件",
+        "description":"Twitter风格的GCAUTH-OAuth 页面",
         "dependencies":[
             "core@*",
             "plugin@GCAuth",

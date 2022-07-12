@@ -1,5 +1,18 @@
 [
     {
+        "name":"割草机2.8版本的服务端",
+        "version":"454c7303",
+        "installationPath":"",
+        "author":"Grasscutter-Backrooms",
+        "description":"由于官方暂时未合并，这个是自行编译的版本，源代码来自于 https://github.com/Grasscutter-Backrooms/Grasscutter/tree/2.8",
+        "dependencies":[
+        ],
+        "file":"https://raw.githubusercontent.com/gc-toolkit/gc-pkgs.io/main/packages/grasscutter-2.8-dev@454c7303.zip",
+        "uninstall":[
+            "plugins/GCAuth/OAuth"
+        ]
+    },
+    {
         "name":"keystore",
         "version":"1.0.0",
         "installationPath":"",

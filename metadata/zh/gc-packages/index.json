@@ -4,10 +4,10 @@
         "version":"null",
         "installationPath":"",
         "author":"Grasscutter-Backrooms",
-        "description":"2.8.5版本捏",
+        "description":"不知道yali找来的2.8.5版本捏",
         "dependencies":[
         ],
-        "file":"https://raw.githubusercontent.com/Gktwo/Gktwo-public-grasscutter2.8.5/main/Built%20jar/grasscutter.jar",
+        "file":"https://raw.githubusercontent.com/gc-toolkit/gc-pkgs.io/main/packages/grasscutter-285.zip",
         "uninstall":[
             "grasscutter.jar"
         ]

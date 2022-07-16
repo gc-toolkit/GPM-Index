@@ -1,5 +1,23 @@
 [
     {
+        "repo": "Grasscutter-Resources-285",
+        "archive": {
+            "url": "https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/main.zip",
+            "path": {
+                "target": "Grasscutter_Resources-main/Resources/"
+            }
+        }
+    },
+    {
+        "repo": "Grasscutter-Resources-285",
+        "archive": {
+            "url": "https://github.com/Gktwo/Gktwo-public-grasscutter2.8.5/archive/refs/heads/main.zip",
+            "path": {
+                "target": "Gktwo-public-grasscutter2.8.5-main/resources/"
+            }
+        }
+    },
+    {
         "repo": "Koko-boya/Grasscutter_Resources",
         "archive": {
             "url": "https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/main.zip",

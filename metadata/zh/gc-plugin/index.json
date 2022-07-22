@@ -4,6 +4,7 @@
         "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "gc-mojoconsole/gc-mojoconsole-backend",
+        "branch":"main",
         "description": "WEB图形化指令生成器"
     },
     {
@@ -11,6 +12,7 @@
         "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "liujiaqi7998/GrasscuttersWebDashboard",
+        "branch":"main",
         "description": "一款WEB控制面板（网页工具箱/指令生成器）"
     },
     {
@@ -18,6 +20,7 @@
         "tags": ["作弊", "指令", "助手"],
         "releases": "releases/latest",
         "github": "jie65535/gc-opencommand-plugin",
+        "branch":"master",
         "description": "gc工具（GrasscutterCommandGenerator）远控的服务器端插件"
     },
     {
@@ -25,6 +28,7 @@
         "tags": ["认证"],
         "releases": "releases/latest",
         "github": "exzork/GCAuth",
+        "branch":"main",
         "description": "割草机（grasscutter)的密码验证系统"
     },
     {
@@ -32,6 +36,7 @@
         "tags": ["认证"],
         "releases": "releases/latest",
         "github": "Xtao-Team/GCAuth-OAuth",
+        "branch":"main",
         "description": "建立在oauth和GCAuth的游戏内登录系统"
     },
     {
@@ -39,6 +44,7 @@
         "tags": ["公告", "服务器"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaNotice",
+        "branch":"main",
         "description": "发送定时公告"
     },
     {
@@ -46,6 +52,7 @@
         "tags": ["邮件", "服务器"],
         "releases": "releases/latest",
         "github": "Coooookies/Grasscutter-MeaMailPlus",
+        "branch":"main",
         "description": "简单的发送游戏内邮件"
     },
     {
@@ -53,6 +60,7 @@
         "tags": ["手册", "助手"],
         "releases": "releases/latest",
         "github": "ffauzan/id-look",
+        "branch":"main",
         "description": "在游戏内搜索GM手册"
     },
     {
@@ -60,6 +68,7 @@
         "tags": ["助手"],
         "releases": "releases/latest",
         "github": "exzork/GCEnkaCopy",
+        "branch":"main",
         "description": "一键获取和装备来自官服公开的数据"
     },
     {
@@ -67,6 +76,7 @@
         "tags": ["助手", "服务器"],
         "releases": "releases/latest",
         "github": "exzork/GCEnkaCopy",
+        "branch":"main",
         "description": "服务器性能查看面板【基本过期】"
     }
 ]

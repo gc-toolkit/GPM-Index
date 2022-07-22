@@ -1,14 +1,18 @@
 [
     {
-        "repo": "Grasscutter-Resources-285",
+        "name":"res285@arrebel",
+        "repo": "arrebel/Gktwo-public-grasscutter2.8.5",
+        "readme":"https://raw.githubusercontent.com/arrebel/Gktwo-public-grasscutter2.8.5/main/README.md",
         "archive": {
-            "url": "https://github.com/Gktwo/Gktwo-public-grasscutter2.8.5/archive/refs/heads/main.zip",
+            "url": "https://github.com/arrebel/Gktwo-public-grasscutter2.8.5/archive/refs/heads/main.zip",
             "path": {
                 "target": "Gktwo-public-grasscutter2.8.5-main/resources/"
             }
         }
     },
     {
+        "name":"res270@kokoboya",
+        "readme":"https://raw.githubusercontent.com/Koko-boya/Grasscutter_Resources/main/README.md",
         "repo": "Koko-boya/Grasscutter_Resources",
         "archive": {
             "url": "https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/main.zip",
@@ -17,7 +21,9 @@
             }
         }
     },{
-        "repo": "Koko-boya/Grasscutter_Resources-2.8",
+        "name":"res280@kokoboya",
+        "readme":"https://raw.githubusercontent.com/Koko-boya/Grasscutter_Resources/2.8/README.md",
+        "repo": "Koko-boya/Grasscutter_Resources/tree/2.8",
         "archive": {
             "url": "https://github.com/Koko-boya/Grasscutter_Resources/archive/refs/heads/2.8.zip",
             "path": {

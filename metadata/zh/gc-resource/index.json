@@ -2,7 +2,7 @@
     {
         "repo": "Grasscutter-Resources-285",
         "archive": {
-            "url": "https://github.com/Gktwo/Gktwo-public-grasscutter2.8.5/archive/refs/heads/main.zip",
+            "url": "https://github.com/arrebel/Gktwo-public-grasscutter2.8.5/archive/refs/heads/main.zip",
             "path": {
                 "target": "Gktwo-public-grasscutter2.8.5-main/resources/"
             }

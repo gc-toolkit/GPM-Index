@@ -86,6 +86,6 @@
         "releases": "releases/latest",
         "github": "exzork/GCEnkaCopy",
         "branch":"main",
-        "description": "服务器性能查看面板【基本过期】"
+        "description": "[基本过期]服务器性能查看面板"
     }
 ]
